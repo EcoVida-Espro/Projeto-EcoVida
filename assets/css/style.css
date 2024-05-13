@@ -1,3 +1,11 @@
+.btn {
+    --bs-btn-bg: #198754;
+    --bs-btn-border-color: #146c43;
+    --bs-btn-hover-bg: #146c43;
+    --bs-btn-hover-border-color: #146c43;
+    --bs-btn-active-bg: #146c43;
+}
+
 .navbar-brand img{
     width: 50px;
 }
