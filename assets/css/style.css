@@ -31,3 +31,18 @@ main {
     background: linear-gradient(transparent, rgb(31,31,31));
     position: absolute;
 }
+
+.characteristics {
+    font-size: 0.8rem;
+    font-weight:200;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.card-menu img{
+    height: 475px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
