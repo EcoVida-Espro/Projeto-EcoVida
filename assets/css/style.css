@@ -34,15 +34,17 @@ main {
 
 .characteristics {
     font-size: 0.8rem;
-    font-weight:200;
+    font-weight:300;
     font-style: italic;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
 }
 
 .card-menu img{
-    height: 475px;
+    height: 450px;
     object-fit: cover;
     object-position: center;
 }
 
-
+.card-body {
+    min-height: 272px;
+}
