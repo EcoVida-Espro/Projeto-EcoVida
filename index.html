@@ -4,15 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Coffee shop</title>
+  <title>Portal Ecovida | Notícias e Informações da Empresa</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet"> <!-- fonte Open Sans-->
+  <link rel="stylesheet" href="assets/css/style.css"> 
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> <!-- fonte Lato -->
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-  <!--navbar-->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="assets/images/logo.png" alt="Logo Cafeteria">
@@ -27,10 +30,10 @@
             <a class="nav-link active" aria-current="page" href="#">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">Sobre Nós</a>
+            <a class="nav-link" href="#about">Em alta</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#menu">Cardápio</a>
+            <a class="nav-link" href="#menu">Notícias</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#local">Local</a>
@@ -45,7 +48,7 @@
   </nav>
 
   <main>
-    <!--Carousel-->
+    <!--Carousel--> <!--Essa seção é responsável pelos slides abaixo da barra de navegação-->
     <header id="carousel-coffee" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="0" class="active" aria-current="true"
@@ -179,8 +182,8 @@
                   src="https://images.unsplash.com/photo-1596952954288-16862d37405b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGVzcHJlc3NvfGVufDB8fDB8fHww"
                   class="card-img-top" alt="espresso">
                 <div class="card-body">
-                  <h5 class="card-title">Espresso</h5>
-                  <p class="card-text">Um café expresso puro, servido sem nenhuma adição. É uma pequena quantidade de
+                  <h5 class="card-title open-sans-text">Espresso</h5>
+                  <p class="card-text lato-text">Um café expresso puro, servido sem nenhuma adição. É uma pequena quantidade de
                     café concentrado.</p>
                   <p class="characteristics">Sabor intenso e creme na superfície.</p>
                   <p class="card-text text-center">R$ 25,20</p>
@@ -193,8 +196,8 @@
                   src="https://images.unsplash.com/photo-1621555470436-d36e9683bae5?q=80&w=1665&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   class="card-img-top" alt="Doppio">
                 <div class="card-body">
-                  <h5 class="card-title">Doppio</h5>
-                  <p class="card-text">Um expresso duplo, São usadas o dobro de café e de água na preparação.</p>
+                  <h5 class="card-title open-sans-text">Doppio</h5>
+                  <p class="card-text lato-text">Um expresso duplo, São usadas o dobro de café e de água na preparação.</p>
                   <p class="characteristics">Mais forte e com maior quantidade de líquido.</p>
                   <p class="card-text text-center">R$ 38,40</p>
                 </div>
@@ -206,8 +209,8 @@
                   src="https://img.imageboss.me/kitchenaid/cdn/format:webp/wp-content/uploads/2016/09/machiatto2-940x1500-940x1500.jpg"
                   class="card-img-top" alt="Macchiato">
                 <div class="card-body">
-                  <h5 class="card-title">Macchiato</h5>
-                  <p class="card-text">Um expresso "manchado" com uma certa quantidade de leite quente ou espuma de
+                  <h5 class="card-title open-sans-text">Macchiato</h5>
+                  <p class="card-text lato-text">Um expresso "manchado" com uma certa quantidade de leite quente ou espuma de
                     leite.</p>
                   <p class="characteristics">Equilíbrio entre o forte sabor do expresso e a suavidade do leite.</p>
                   <p class="card-text text-center">R$ 55,60</p>
@@ -220,8 +223,8 @@
                   src="https://images.unsplash.com/photo-1522922235461-912955b0772b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFJpc3RyZXR0b3xlbnwwfHwwfHx8MA%3D%3D"
                   class="card-img-top" alt="Ristretto">
                 <div class="card-body">
-                  <h5 class="card-title">Ristretto</h5>
-                  <p class="card-text">Semelhante ao expresso, mas com menos água. A proporção é a mesma, mas a extração
+                  <h5 class="card-title open-sans-text">Ristretto</h5>
+                  <p class="card-text lato-text">Semelhante ao expresso, mas com menos água. A proporção é a mesma, mas a extração
                     é interrompida antes.</p>
                   <p class="characteristics">Sabor mais concentrado e forte, com menos amargor.</p>
                   <p class="card-text text-center">R$ 89,99</p>
@@ -234,8 +237,8 @@
                   src="https://images.unsplash.com/photo-1521302080334-4bebac2763a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI4fHxjb2ZmZXxlbnwwfHwwfHx8MA%3D%3D"
                   class="card-img-top" alt="Americano">
                 <div class="card-body">
-                  <h5 class="card-title">Americano</h5>
-                  <p class="card-text">Um expresso ao qual é adicionada água quente, similar ao estilo do café filtrado,
+                  <h5 class="card-title open-sans-text">Americano</h5>
+                  <p class="card-text lato-text">Um expresso ao qual é adicionada água quente, similar ao estilo do café filtrado,
                     mas com a intensidade do expresso.</p>
                   <p class="characteristics">Parecido com o expresso, porém diferente devido ao preparo.</p>
                   <p class="card-text text-center">R$ 42,75</p>
@@ -248,8 +251,8 @@
                   src="https://images.unsplash.com/photo-1611564494260-6f21b80af7ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RmxhdCUyMFdoaXRlfGVufDB8fDB8fHww"
                   class="card-img-top" alt="Flat White">
                 <div class="card-body">
-                  <h5 class="card-title">Flat White</h5>
-                  <p class="card-text">Um expresso coberto com uma quantidade generosa de leite vaporizado, semelhante
+                  <h5 class="card-title open-sans-text">Flat White</h5>
+                  <p class="card-text lato-text">Um expresso coberto com uma quantidade generosa de leite vaporizado, semelhante
                     ao cappuccino, mas com menos espuma.</p>
                   <p class="characteristics">Com uma proporção maior de leite em relação ao cappuccino.</p>
                   <p class="card-text text-center">R$ 68,90</p>
@@ -268,8 +271,8 @@
                   src="https://images.unsplash.com/photo-1602320574582-741740d4fcd7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fENhcHB1Y2Npbm98ZW58MHx8MHx8fDA%3D"
                   class="card-img-top" alt="Cappuccino ">
                 <div class="card-body">
-                  <h5 class="card-title">Cappuccino </h5>
-                  <p class="card-text">Preparado com uma dose de expresso, uma quantidade igual de leite vaporizado e
+                  <h5 class="card-title open-sans-text">Cappuccino </h5>
+                  <p class="card-text lato-text">Preparado com uma dose de expresso, uma quantidade igual de leite vaporizado e
                     uma camada espessa de espuma de leite.</p>
                   <p class="characteristics">Equilíbrio perfeito entre café, leite e espuma.</p>
                   <p class="card-text text-center">R$ 50,50</p>
@@ -282,8 +285,8 @@
                   src="https://images.unsplash.com/photo-1621221814631-e8bfdabd5ca4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fG1vY2hhJTIwQ2FwcHVjY2lub3xlbnwwfHwwfHx8MA%3D%3D"
                   class="card-img-top" alt="Mocha Cappuccino">
                 <div class="card-body">
-                  <h5 class="card-title">Mocha Cappuccino</h5>
-                  <p class="card-text">Inclui uma dose de calda de chocolate ou cacau em pó junto com o expresso, leite
+                  <h5 class="card-title open-sans-text">Mocha Cappuccino</h5>
+                  <p class="card-text lato-text">Inclui uma dose de calda de chocolate ou cacau em pó junto com o expresso, leite
                     vaporizado e espuma.</p>
                   <p class="characteristics">Doce e com sabor rico de chocolate.</p>
                   <p class="card-text text-center">R$ 34,80</p>
@@ -296,8 +299,8 @@
                   src="https://images.unsplash.com/photo-1496784056191-9da98036385b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fENhcHB1Y2Npbm8lMjBtaWxrfGVufDB8fDB8fHww"
                   class="card-img-top" alt="Viennese Cappuccino">
                 <div class="card-body">
-                  <h5 class="card-title">Viennese Cappuccino</h5>
-                  <p class="card-text">Preparado com expresso, leite vaporizado, e é coberto com chantilly em vez de
+                  <h5 class="card-title open-sans-text">Viennese Cappuccino</h5>
+                  <p class="card-text lato-text">Preparado com expresso, leite vaporizado, e é coberto com chantilly em vez de
                     espuma de leite..</p>
                   <p class="characteristics">Rico e indulgente, com uma cobertura cremosa.</p>
                   <p class="card-text text-center">R$ 85,20</p>
@@ -316,8 +319,8 @@
                   src="https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Q29sZCUyMEJyZXd8ZW58MHx8MHx8fDA%3D"
                   class="card-img-top" alt="Cold Brew">
                 <div class="card-body">
-                  <h5 class="card-title">Cold Brew</h5>
-                  <p class="card-text">Café preparado com água fria por um longo período (geralmente entre 12 a 24
+                  <h5 class="card-title open-sans-text">Cold Brew</h5>
+                  <p class="card-text lato-text">Café preparado com água fria por um longo período (geralmente entre 12 a 24
                     horas).</p>
                   <p class="characteristics">Sabor suave e menos ácido, servido frio sobre gelo. Pode ser adoçado ou
                     misturado com leite.</p>
@@ -331,8 +334,8 @@
                   src="https://images.unsplash.com/photo-1637178035222-a08f2d4dd1a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RnJhcHB1Y2Npbm98ZW58MHx8MHx8fDA%3D"
                   class="card-img-top" alt="Frappuccino">
                 <div class="card-body">
-                  <h5 class="card-title">Frappuccino</h5>
-                  <p class="card-text">Uma bebida de café gelado popularizada pela Starbucks, feita com café, gelo,
+                  <h5 class="card-title open-sans-text">Frappuccino</h5>
+                  <p class="card-text lato-text">Uma bebida de café gelado popularizada pela Starbucks, feita com café, gelo,
                     leite e xaropes de sabores, misturados até ficarem cremosos.</p>
                   <p class="characteristics">Doce, cremosa e muitas vezes coberta com chantilly e coberturas como calda
                     de caramelo ou chocolate</p>
@@ -346,8 +349,8 @@
                   src="https://images.unsplash.com/photo-1594631661960-34762327295a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QWZmb2dhdG98ZW58MHx8MHx8fDA%3D"
                   class="card-img-top" alt="Affogato">
                 <div class="card-body">
-                  <h5 class="card-title">Affogato</h5>
-                  <p class="card-text">Preparado com expresso, leite vaporizado, e é coberto com chantilly em vez de
+                  <h5 class="card-title open-sans-text">Affogato</h5>
+                  <p class="card-text lato-text">Preparado com expresso, leite vaporizado, e é coberto com chantilly em vez de
                     espuma de leite.</p>
                   <p class="characteristics">Rico e indulgente, com uma cobertura cremosa.</p>
                   <p class="card-text text-center">R$ 29,99</p>
@@ -366,8 +369,8 @@
                   src="https://images.unsplash.com/photo-1629444984221-c3720805e686?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8UHVtcGtpbiUyMFNwaWNlJTIwTGF0dGV8ZW58MHx8MHx8fDA%3D"
                   class="card-img-top" alt="Pumpkin Spice Latte">
                 <div class="card-body">
-                  <h5 class="card-title">Pumpkin Spice Latte</h5>
-                  <p class="card-text">Um expresso combinado com purê de abóbora, especiarias (canela, noz-moscada,
+                  <h5 class="card-title open-sans-text">Pumpkin Spice Latte</h5>
+                  <p class="card-text lato-text">Um expresso combinado com purê de abóbora, especiarias (canela, noz-moscada,
                     gengibre e cravo), leite vaporizado e geralmente coberto com chantilly e uma pitada de especiarias.
                   </p>
                   <p class="characteristics">Sabor doce e condimentado, típico do outono, especialmente popular na
@@ -382,8 +385,8 @@
                   src="https://images.unsplash.com/photo-1560106426-c90ed1729664?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Q2hhaSUyMExhdHRlfGVufDB8fDB8fHww"
                   class="card-img-top" alt="Chai Latte">
                 <div class="card-body">
-                  <h5 class="card-title">Chai Latte</h5>
-                  <p class="card-text"> Uma combinação de chá preto com uma mistura de especiarias (canela, cardamomo,
+                  <h5 class="card-title open-sans-text">Chai Latte</h5>
+                  <p class="card-text lato-text"> Uma combinação de chá preto com uma mistura de especiarias (canela, cardamomo,
                     gengibre, cravo e pimenta preta), leite vaporizado e espuma.</p>
                   <p class="characteristics">Aromático e levemente picante, com uma riqueza cremosa devido ao leite.</p>
                   <p class="card-text text-center">R$ 32,90</p>
@@ -396,8 +399,8 @@
                   src="https://images.unsplash.com/photo-1594631661960-34762327295a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QWZmb2dhdG98ZW58MHx8MHx8fDA%3D"
                   class="card-img-top" alt="Coffee with Nutmeg">
                 <div class="card-body">
-                  <h5 class="card-title">Coffee with Nutmeg</h5>
-                  <p class="card-text">Café polvilhado com noz-moscada ralada ou infundido com um pedaço de noz-moscada.
+                  <h5 class="card-title open-sans-text">Coffee with Nutmeg</h5>
+                  <p class="card-text lato-text">Café polvilhado com noz-moscada ralada ou infundido com um pedaço de noz-moscada.
                   </p>
                   <p class="characteristics">A noz-moscada confere um sabor terroso e picante, com um aroma forte que
                     complementa o café.</p>
@@ -440,16 +443,18 @@
 
   </main>
 
-  <!--footer-->
-  <footer class="text-center bg-dark p-5 mt-5 text-light">
-    <img width="80" src="assets/images/logo.png" alt="logo da coffee shop">
-    <p class="mt-3 mb-0 fw-bold">
-      Coffee shop | Transformando sua experiência com café
-    </p>
-    <p>
-      (15) 98886-1111
-    </p>
-  </footer>
+ <!--footer--> 
+<!-- esse é o rodapé do site -->
+<footer class="text-center custom-footer p-5 mt-5 text-light">
+  <img width="80" src="assets/images/logo.png" alt="logo da coffee shop">
+  <p class="mt-3 mb-0 fw-bold">
+    Ecovida | Soluções Ecológicas e Desenvolvimento sustentável
+  </p>
+  <p>
+    (15) 98886-1111
+    <br>Redes Sociais: Ecovida@Instagram
+  </p>
+</footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
