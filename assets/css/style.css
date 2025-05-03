@@ -1,0 +1,82 @@
+:root {
+    --bs-link-color: #198754;
+    --bs-link-hover-color: #146c43;
+}
+
+
+.btn {
+    --bs-btn-bg: #198754;
+    --bs-btn-border-color: #146c43;
+    --bs-btn-hover-bg: #146c43;
+    --bs-btn-hover-border-color: #146c43;
+    --bs-btn-active-bg: #146c43;
+}
+
+main {
+    margin-top: 4.8rem;
+}
+
+section {
+    scroll-margin-top: 6rem;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item::before {
+    content:"";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31, 31, 31));
+    position: absolute;
+}
+
+.characteristics {
+    font-size: 0.8rem;
+    font-weight:300;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+.card-menu img{
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-body {
+    min-height: 272px;
+}
+
+/* Aplica a fonte Open Sans com tamanho 16px apenas nos titulos dos textos */
+.open-sans-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+
+/* Personaliza a cor da barra de navegação do cabeçalho do site */
+.custom-navbar {
+    background-color: #596F27;
+  }
+
+/* Personaliza a cor do rodapé da pagina para ficar igual a cor do cabeçalho*/
+.custom-footer {
+    background-color: #596F27;
+}
+
+/* Aplica a fonte Lato com tamanho 14px para os textos abaixo dos*/
+.lato-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14
+}
