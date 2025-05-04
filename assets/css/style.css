@@ -57,7 +57,11 @@ section {
 
 .card-body {
     min-height: 272px;
+    background-color: #e67e22;
+    color: #ffffff
 }
+
+
 
 /* Aplica a fonte Open Sans com tamanho 16px apenas nos titulos dos textos */
 .open-sans-text {
@@ -67,16 +71,40 @@ section {
 
 /* Personaliza a cor da barra de navegação do cabeçalho do site */
 .custom-navbar {
-    background-color: #596F27;
+    background-color: #4D7339;
   }
 
 /* Personaliza a cor do rodapé da pagina para ficar igual a cor do cabeçalho*/
 .custom-footer {
-    background-color: #596F27;
+    background-color: #4D7339;
 }
 
-/* Aplica a fonte Lato com tamanho 14px para os textos abaixo dos*/
+/* Aplica a fonte Lato com tamanho 14px para os textos*/
 .lato-text {
     font-family: 'Lato', sans-serif;
-    font-size: 14
+    font-size: 14px;
 }
+
+/* Aplica a fonte Lora com tamanho 12px para os textos*/
+.lora-text {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+  
+/* Aplica a fonte Montserrat com tamanho 12px para os textos*/
+.montserrat-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+/*Corrige o erro nas imagens do card de ter um espaço em branco*/
+.card .row {
+    height: 100%;
+  }
+  
+  .card .col-md-4 img {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
