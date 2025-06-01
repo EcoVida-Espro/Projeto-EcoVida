@@ -42,55 +42,47 @@
       </div>
     </div>
   </nav>
-
   <main>
-    <!--Carousel--> <!--Essa seção é responsável pelos slides abaixo da barra de navegação-->
-    <header id="carousel-eco" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carousel-eco" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carousel-eco" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carousel-eco" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="https://wesco.com.br/wp-content/uploads/2015/08/Pessoas-felizes.jpg"
-            class="d-block w-100" alt="inserir alt">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>inserir titulo</h5>
-            <p>inserir texto</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            class="d-block w-100" alt="inserir alt">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>inserir titulo</h5>
-            <p> inserir texto</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            class="d-block w-100" alt="inserir alt">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="lora-text">inserir titulo</h5>
-            <p>inserir texto</p>
-          </div>
+  <!--Carousel--> <!--Essa seção é responsável pelos slides abaixo da barra de navegação-->
+  <header id="carousel-eco" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel-eco" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel-eco" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel-eco" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/carrosel1.jpg" class="d-block w-100" alt="Imagem 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5><h5>Juntos Somos Mais Fortes</h5>
+          <p>Uma turma unida pela vontade de crescer, aprender e fazer a diferença no mundo profissional.</p>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-eco" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
+      <div class="carousel-item">
+        <img src="assets/images/carrosel2.jpg" class="d-block w-100" alt="Imagem 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Aprendizado e Conexão</h5>
+          <p>Ao longo do curso, crescemos juntos, aprendendo com cada aula, cada colega e cada experiência.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/carrosel3.jpg" class="d-block w-100" alt="Imagem 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Construindo o Futuro</h5>
+          <p>Agora seguimos preparados para o mercado de trabalho, com valores, conhecimento e amizades para a vida toda.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-eco" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carousel-eco" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+        <span class="visually-hidden">Próximo</span>
       </button>
     </header>
-
     <!--quote-->
     <figure>
       <blockquote class="blockquote">
@@ -100,7 +92,6 @@
         <cite title="Source Title">Ecovida</cite>
       </figcaption>
     </figure>
-
     <!--About cards-->
     <section id="about" class="container mt-5">
       <div class="row">
@@ -140,221 +131,143 @@
         </div>
       </div>
     </section>
-
-    <!--Menu-->
+      <!--Menu-->
     <section id="menu" class="container mt-5 mb-5">
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="Eventos-tab" data-bs-toggle="tab" data-bs-target="#Eventos-tab-pane"
-            type="button" role="tab" aria-controls="Eventos-tab-pane" aria-selected="true">Eventos</button>
+          type="button" role="tab" aria-controls="Eventos-tab-pane" aria-selected="true">Eventos</button>
         </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="notícias-tab" data-bs-toggle="tab" data-bs-target="#notícias-tab-pane"
-            type="button" role="tab" aria-controls="notícias-tab-pane" aria-selected="false">Notícias</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="teste1-tab" data-bs-toggle="tab" data-bs-target="#teste1-tab-pane"
-            type="button" role="tab" aria-controls="teste1-tab-pane" aria-selected="false">Teste1</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="teste2-tab" data-bs-toggle="tab"
-            data-bs-target="#teste2-tab-pane" type="button" role="tab" aria-controls="teste2-tab-pane"
-            aria-selected="false">Teste2</button>
-        </li>
-      </ul>
-      <div class="tab-content" id="coffeesTabContent">
-        <div class="tab-pane fade show active" id="Eventos-tab-pane" role="tabpanel" aria-labelledby="Eventos-tab"
-          tabindex="0">
-          <!--Eventos-->
-          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
-            <div class="col">
-                <div class="card card-menu">
-                  <img src="assets/images/imagemevento1.PNG" alt="Evento 1" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
-                    <div class="card-body">
-                        <h5 class="card-title open-sans-text">Lançamento de Produto</h5>
-                        <p class="card-text lato-text">Participe do evento de lançamento do nosso novo produto. Será uma oportunidade única de conhecer as novidades e interagir com os criadores!</p>
-                        <p class="characteristics">Publicado em: 24/04/2025</p>
-                    </div>
-                </div>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="notícias-tab" data-bs-toggle="tab" data-bs-target="#notícias-tab-pane"
+        type="button" role="tab" aria-controls="notícias-tab-pane" aria-selected="false">Notícias</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="coffeesTabContent">
+      <div class="tab-pane fade show active" id="Eventos-tab-pane" role="tabpanel" aria-labelledby="Eventos-tab" tabindex="0">
+      <!--Eventos-->
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">       
+        <div class="col evento-principal">
+          <div class="card card-menu">
+            <img src="assets/images/maiolaranjacarrosel.jpeg" alt="Evento 1" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
+            <div class="card-body">
+              <h5 class="card-title open-sans-text">Maio Laranja</h5>
+              <p class="card-text lato-text">No Espro, o mês de maio é também um momento de conscientização e compromisso com a proteção da infância e adolescência. 
+              A campanha Maio Laranja reforça a importância de prevenir e combater o abuso e a exploração sexual de crianças e adolescentes. Por meio de rodas de conversa, 
+              dinâmicas e atividades educativas, promovemos o diálogo e a informação entre os jovens aprendizes, incentivando o respeito, o cuidado e a denúncia de qualquer forma de violência. 
+              Proteger é um dever de todos — e começa com a educação.</p>
+              <p class="characteristics">Publicado em: 19/05/2025</p>
             </div>
-            <div class="col">
-              <div class="card card-menu">
-                <img src="assets/images/imagemevento2.PNG" alt="Evento 2" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
-                  <div class="card-body">
-                      <h5 class="card-title open-sans-text">Treinamento de Equipe</h5>
-                      <p class="card-text lato-text">Nosso treinamento anual para os colaboradores da empresa será realizado no próximo mês. Prepare-se para uma jornada de aprendizado e crescimento!</p>
-                      <p class="characteristics">Publicado em: 21/04/2025</p>
-                  </div>
-              </div>
           </div>
-          <div class="col">
-            <div class="card card-menu">
-              <img src="assets/images/imagemevento4.png" alt="Evento 4" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
-                <div class="card-body">
-                    <h5 class="card-title open-sans-text">Feira de Tecnologia</h5>
-                    <p class="card-text lato-text">Participe da nossa feira de tecnologia e descubra as últimas inovações do mercado. Conheça empresas de ponta e suas soluções tecnológicas.</p>
-                    <p class="characteristics">Publicado em: 18/04/2025</p>
-                </div>
+        </div>      
+        <div class="col evento-principal">
+          <div class="card card-menu">
+            <img src="assets/images/imagemcarrousel2.jpeg" alt="Evento 2" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
+            <div class="card-body">
+              <h5 class="card-title open-sans-text">Confraternização</h5>
+              <p class="card-text lato-text">Após uma manhã dedicada a reflexões importantes sobre o Maio Laranja, convidamos todos para um momento especial de confraternização. 
+              Será uma oportunidade para relaxar, compartilhar experiências, fortalecer vínculos e celebrar a união da nossa comunidade escolar.
+              O encontro contará com um lanche coletivo, em um ambiente acolhedor, onde estudantes, educadores e nossa convidada especial, a assistente social Fabiola, 
+              poderão interagir de forma leve e descontraída. Mais do que um simples lanche, esse momento é um convite para fortalecer a empatia, criar novas conexões e 
+              valorizar a parceria que construímos juntos. Esperamos por você!</p>
+              <p class="characteristics">Publicado em: 15/05/2025</p>
             </div>
+          </div>
         </div>
         <div class="col">
           <div class="card card-menu">
             <img src="assets/images/imagemevento4.png" alt="Evento 4" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
-              <div class="card-body">
-                  <h5 class="card-title open-sans-text">Workshop de Inovação</h5>
-                  <p class="card-text lato-text">Participe do nosso workshop de inovação, onde você aprenderá técnicas e metodologias para aplicar novas ideias dentro da empresa.</p>
-                  <p class="characteristics">Publicado em: 23/04/2025</p>
-              </div>
-          </div>
-      </div>
-      <div class="col">
-        <div class="card card-menu">
-          <img src="assets/images/imagemevento5.png" alt="Evento 5" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
             <div class="card-body">
-                <h5 class="card-title open-sans-text">Conferência de Marketing Digital</h5>
-                <p class="card-text lato-text">A conferência de marketing digital deste ano trará as melhores práticas e tendências do mercado. Não perca!</p>
-                <p class="characteristics">Publicado em: 30/04/2025</p>
+              <h5 class="card-title open-sans-text">Feira de Tecnologia</h5>
+              <p class="card-text lato-text">Participe da nossa feira de tecnologia e descubra as últimas inovações do mercado. Conheça empresas de ponta e suas soluções tecnológicas.</p>
+              <p class="characteristics">Publicado em: 18/04/2025</p>
             </div>
+          </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card card-menu">
-          <img src="assets/images/imagemevento6.png" alt="Evento 6" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
+        <div class="col">
+          <div class="card card-menu">
+            <img src="assets/images/imagemevento4.png" alt="Evento 4" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
             <div class="card-body">
-                <h5 class="card-title open-sans-text">Happy Hour de Networking</h5>
-                <p class="card-text lato-text">Participe do nosso happy hour para trocar ideias com outros profissionais e expandir sua rede de contatos.</p>
-                <p class="characteristics">Publicado em: 06/04/2025</p>
-                </div>
-              </div>
+              <h5 class="card-title open-sans-text">Workshop de Inovação</h5>
+              <p class="card-text lato-text">Participe do nosso workshop de inovação, onde você aprenderá técnicas e metodologias para aplicar novas ideias dentro da empresa.</p>
+              <p class="characteristics">Publicado em: 23/04/2025</p>
             </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="notícias-tab-pane" role="tabpanel" aria-labelledby="notícias-tab"
-          tabindex="0">
-          <!--notícias-->
-          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
-            <div class="col">
-              <div class="card card-menu">
-                <img
-                src="assets/images/noticias1.png" alt="Noticias 2" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
-                <div class="card-body">
-                  <h5 class="card-title open-sans-text">EcoVida realiza mutirão de limpeza em parque urbano de Sorocaba</h5>
-                  <p class="card-text lora-text">Sorocaba (SP) – No domingo (28), cerca de 200 voluntários participaram de um mutirão de limpeza no Parque das Águas, promovido pela ONG EcoVida. A ação recolheu mais de 1 tonelada de resíduos recicláveis e orgânicos, além de oferecer oficinas sobre descarte correto e consumo consciente. A atividade envolveu escolas da região e contou com apoio da cooperativa Recicla Sorocaba. “Cada atitude conta para construir uma cidade mais limpa e sustentável”, disse Isadora Mendes, 15, voluntária do projeto.</p>
-                  <p class="characteristics">16/04/2025</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card card-menu">
-                <div class="card-img-top" style="width: 100%; height: 450px; background-color: #e67e22;">
-                  <img src="assets/images/noticias2.png" alt="Noticias 2" style="object-fit: contain; width: 100%; height: 100%;">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title open-sans-text">Projeto da EcoVida leva oficinas sustentáveis a escola pública de Sorocaba</h5>
-                  <p class="card-text lora-text">Sorocaba (SP) – Estudantes da E.E. Dr. Armando Pannunzio participaram nesta semana de oficinas promovidas pela EcoVida sobre hortas urbanas, reciclagem e energia limpa. A atividade integrou o programa “Eco nas Escolas”, que busca fomentar a educação ambiental com práticas do dia a dia. “Queremos mostrar que sustentabilidade começa na nossa rotina”, destacou Gabriel Souza, 17, membro da equipe pedagógica da ONG. A ação atendeu mais de 300 alunos e terá novas edições em outras escolas da cidade.</p>
-                  <p class="characteristics">24/04/2025</p>
-                </div>
-              </div>
-            </div>            
-            <div class="col">
-              <div class="card card-menu">
-                <div class="card-img-top" style="width: 100%; height: 450px; background-color: #e67e22;">
-                  <img src="assets/images/noticias3.png" alt="Noticias 3" style="object-fit: contain; width: 100%; height: 100%;">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title open-sans-text">EcoVida transforma terreno abandonado em jardim comunitário na zona norte</h5>
-                  <p class="card-text lora-text">Sorocaba (SP) – Um terreno baldio no bairro Carandá foi revitalizado e virou um jardim comunitário graças à ação da ONG EcoVida em parceria com moradores e coletivos locais. A iniciativa plantou flores, ervas medicinais e criou um espaço de convivência para crianças e idosos. “Esse lugar era sinônimo de abandono, agora é um símbolo de esperança”, disse a moradora Joana Ribeiro, 62. A EcoVida também ofereceu oficinas de compostagem e doou ferramentas para a manutenção do espaço.</p>
-                  <p class="characteristics">08/04/2025</p>
-                </div>
-              </div>
-            </div>            
-        <div class="tab-pane fade" id="teste1-tab-pane" role="tabpanel" aria-labelledby="teste1-tab"
-          tabindex="0">
-          <!--Teste1-->
-          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
-            <div class="col">
-              <div class="card card-menu">
-                <img
-                  src="https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?q=80&w=1642&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  class="card-img-top" alt="inserir alt">
-                <div class="card-body">
-                  <h5 class="card-title open-sans-text">inserir titulo</h5>
-                  <p class="card-text lato-text">inserir texto</p>
-                  <p class="characteristics">Inserir data publicada</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card card-menu">
-                <img
-                  src="https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?q=80&w=1642&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  class="card-img-top" alt="inserir alt">
-                <div class="card-body">
-                  <h5 class="card-title open-sans-text">inserir titulo</h5>
-                  <p class="card-text lato-text">inserir texto</p>
-                  <p class="characteristics">Inserir data publicada</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card card-menu">
-                <img
-                  src="https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?q=80&w=1642&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  class="card-img-top" alt="inserir alt">
-                <div class="card-body">
-                  <h5 class="card-title open-sans-text">inserir titulo</h5>
-                  <p class="card-text lato-text">inserir texto</p>
-                  <p class="characteristics">Inserir data publicada</p>
-                </div>
-              </div>
+        <div class="col">
+          <div class="card card-menu">
+            <img src="assets/images/imagemevento5.png" alt="Evento 5" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
+            <div class="card-body">
+              <h5 class="card-title open-sans-text">Conferência de Marketing Digital</h5>
+              <p class="card-text lato-text">A conferência de marketing digital deste ano trará as melhores práticas e tendências do mercado. Não perca!</p>
+              <p class="characteristics">Publicado em: 30/04/2025</p>
             </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="teste2-tab-pane" role="tabpanel" aria-labelledby="teste2-tab"
-          tabindex="0">
-          <!--teste2-->
-          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
-            <div class="col">
-              <div class="card card-menu">
-                <img
-                  src="https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  class="card-img-top" alt="inserir alt">
-                <div class="card-body">
-                  <h5 class="card-title open-sans-text">inserir titulo</h5>
-                  <p class="card-text lato-text">inserir texto</p>
-                  <p class="characteristics">Inserir data publicada</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card card-menu">
-                <img
-                  src="https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  class="card-img-top" alt="inserir alt">
-                <div class="card-body">
-                  <h5 class="card-title open-sans-text">inserir titulo</h5>
-                  <p class="card-text lato-text">inserir texto</p>
-                  <p class="characteristics">Inserir data publicada</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card card-menu">
-                <img
-                  src="https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                  class="card-img-top" alt="inserir alt">
-                <div class="card-body">
-                  <h5 class="card-title open-sans-text">inserir titulo</h5>
-                  <p class="card-text lato-text">inserir texto</p>
-                  <p class="characteristics">Inserir data publicada</p>
-                </div>
-              </div>
+        <div class="col">
+          <div class="card card-menu">
+            <img src="assets/images/imagemevento6.png" alt="Evento 6" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
+            <div class="card-body">
+              <h5 class="card-title open-sans-text">Happy Hour de Networking</h5>
+              <p class="card-text lato-text">Participe do nosso happy hour para trocar ideias com outros profissionais e expandir sua rede de contatos.</p>
+              <p class="characteristics">Publicado em: 06/04/2025</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
+    </div>
+        <div class="tab-pane fade" id="notícias-tab-pane" role="tabpanel" aria-labelledby="notícias-tab" tabindex="0">
+<!--notícias-->
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+  <div class="col">
+    <div class="card card-menu">
+      <img src="assets/images/jornalecovida.jpeg" alt="Noticias 1" class="card-img-top" style="object-fit: cover; width: 100%; height: 450px;">
+      <div class="card-body">
+        <h5 class="card-title open-sans-text">Jornal Ecovida de Maio</h5>
+        <p class="card-text lora-text">
+          Nesta edição de maio, trazemos os principais destaques, incluindo as ações do Maio Laranja, a comemoração do aniversário da nossa querida professora Priscila e 
+          a nossa confraternização especial que aconteceu após a palestra do Maio Laranja.
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="characteristics mb-0">16/04/2025</p>
+          <a href="assets/images/jornalecovida.jpeg" target="_blank" class="btn btn-sm btn-outline-primary" style="color: white; border-color: white;">Ler Jornal</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col" style="display: none;">
+    <div class="card card-menu">
+      <div class="card-img-top" style="width: 100%; height: 450px; background-color: #e67e22;">
+        <img src="assets/images/noticias2.png" alt="Noticias 2" style="object-fit: contain; width: 100%; height: 100%;">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title open-sans-text">Projeto da EcoVida leva oficinas sustentáveis a escola pública de Sorocaba</h5>
+        <p class="card-text lora-text">
+          Sorocaba (SP) – Estudantes da E.E. Dr. Armando Pannunzio participaram nesta semana de oficinas promovidas pela EcoVida sobre hortas urbanas, reciclagem e energia limpa. A atividade integrou o programa “Eco nas Escolas”, que busca fomentar a educação ambiental com práticas do dia a dia. “Queremos mostrar que sustentabilidade começa na nossa rotina”, destacou Gabriel Souza, 17, membro da equipe pedagógica da ONG. A ação atendeu mais de 300 alunos e terá novas edições em outras escolas da cidade.
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="characteristics mb-0">24/04/2025</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col" style="display: none;">
+    <div class="card card-menu">
+      <div class="card-img-top" style="width: 100%; height: 450px; background-color: #e67e22;">
+        <img src="assets/images/noticias3.png" alt="Noticias 3" style="object-fit: contain; width: 100%; height: 100%;">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title open-sans-text">EcoVida transforma terreno abandonado em jardim comunitário na zona norte</h5>
+        <p class="card-text lora-text">
+          Sorocaba (SP) – Um terreno baldio no bairro Carandá foi revitalizado e virou um jardim comunitário graças à ação da ONG EcoVida em parceria com moradores e coletivos locais. A iniciativa plantou flores, ervas medicinais e criou um espaço de convivência para crianças e idosos. “Esse lugar era sinônimo de abandono, agora é um símbolo de esperança”, disse a moradora Joana Ribeiro, 62. A EcoVida também ofereceu oficinas de compostagem e doou ferramentas para a manutenção do espaço.
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="characteristics mb-0">08/04/2025</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     <!--Local-->
     <section id="local" class="container text-center mb-3">
 
